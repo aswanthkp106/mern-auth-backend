@@ -1,11 +1,15 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "api/server.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
-    "express": "^4.22.2"
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "mongoose": "^8.16.5"
   }
 }
