@@ -17,6 +17,11 @@ const UserSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    profilePic: {
+      type: String,
+      default:
+         "https://i.imgur.com/HeIi0wU.png",
+    },
   },
   { timestamps: true }
 );
